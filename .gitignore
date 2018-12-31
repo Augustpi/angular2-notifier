@@ -14,7 +14,3 @@ Thumbs.db
 
 ## Project specific rules
 src/index-*.html
-
-src/settings/*
-!src/settings/settings.ts
-!src/settings/Readme.md
