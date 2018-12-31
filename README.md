@@ -1,7 +1,7 @@
 # Angular2 notifier 
 ## Welcome to the angular-notifier wiki!
 
-![Angular Notifier](https://woorklab.com/images/angular2notifier.png)
+![Angular Notifier](https://woorklab.com/images/angular2-notifier.png)
 
 ## Demo link
 
