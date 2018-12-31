@@ -1,7 +1,7 @@
-# Angular dart web notifier 
-## Welcome to the angular-dart-notifier wiki!
+# Angular2 notifier 
+## Welcome to the angular-notifier wiki!
 
-![Angular dart Notifier](https://woorklab.com/images/notifier.png)
+![Angular Notifier](https://woorklab.com/images/notifier.png)
 
 ## Demo link
 
