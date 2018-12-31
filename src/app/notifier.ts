@@ -1,4 +1,8 @@
 /**
+ * Angular2 Notifer
+ *
+ * Avni Onur Pehlivan https://github.com/Augustpi
+ * https://github.com/Augustpi/angular2-notifier
  *
  */
 

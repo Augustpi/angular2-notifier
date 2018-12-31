@@ -1,5 +1,9 @@
 ### Changelog
 
+**0.1.3**
+
+* Minor update
+
 **0.1.2**
 
 * Update README
