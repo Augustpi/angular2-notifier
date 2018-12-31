@@ -1,5 +1,5 @@
 # Angular2 notifier 
-## Welcome to the angular-notifier wiki!
+## Welcome
 
 ![Angular Notifier](https://woorklab.com/images/angular2-notifier.png)
 
@@ -11,7 +11,12 @@
 ## How to use
 
 * First step import `notifier.ts` file in the **/src/** directory
-* and import notifier.css file 
+
+```
+import { Notifier } from "./notifier";
+```
+* and import notifier.css file (**/src/assets/**) 
+index.html ```<link rel="stylesheet" href="assets/notifier.css">```
 
 
 ```
