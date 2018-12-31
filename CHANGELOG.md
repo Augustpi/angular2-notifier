@@ -1,5 +1,9 @@
 ### Changelog
 
+**0.1.4**
+
+* Minor fix
+
 **0.1.3**
 
 * Minor update
