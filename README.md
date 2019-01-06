@@ -1,7 +1,7 @@
 # Angular2 notifier 
-## Welcome to the angular-notifier wiki!
+## Welcome
 
-![Angular Notifier](https://woorklab.com/images/notifier2.png)
+![Angular Notifier](https://woorklab.com/images/angular2-notifier.png)
 
 ## Demo link
 
@@ -11,7 +11,12 @@
 ## How to use
 
 * First step import `notifier.ts` file in the **/src/** directory
-* and import notifier.css file 
+
+```
+import { Notifier } from "./notifier";
+```
+* and import notifier.css file (**/src/assets/**) 
+index.html ```<link rel="stylesheet" href="assets/notifier.css">```
 
 
 ```
@@ -38,9 +43,10 @@ For Angular [Angular](http://angulardart.io)
 
 For Dartlang please visit [Dartlang](https://www.dartlang.org) and [Github repo](https://github.com/dart-lang),
 For AngularDart [AngularDart](http://angulardart.org) and [Github](https://github.com/dart-lang/angular)
+```I love Dart```
 
 ## Contribute
 Our project is, without any discrimination, open to anyone who is willing to make a contribution!
 
 ## License
-Our project is licensed under MIT license.
+Our project is licensed under ***MIT license***.
