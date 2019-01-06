@@ -7,7 +7,7 @@
 
 [Angular web notifier demo page](https://augustpi.github.io/angular-dart-notifier/) (dart version)
 
-## Angular Dart version
+## Angular Dart version
 
 [Notifier Dart version](https://github.com/Augustpi/angular-dart-notifier)
 
@@ -42,7 +42,7 @@ Notifier('info', 'title', 'content here', 1000).show();
 
 For Angular [Angular](http://angulardart.io)
 
-## Dartlang and AngularDart
+## * Dartlang and AngularDart
 
 For Dartlang please visit [Dartlang](https://www.dartlang.org) and [Github repo](https://github.com/dart-lang),
 For AngularDart [AngularDart](http://angulardart.org) and [Github](https://github.com/dart-lang/angular)
