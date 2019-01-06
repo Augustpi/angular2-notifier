@@ -7,6 +7,9 @@
 
 [Angular web notifier demo page](https://augustpi.github.io/angular-dart-notifier/) (dart version)
 
+## Angular Dart version
+
+[Notifier Dart version](https://github.com/Augustpi/angular-dart-notifier)
 
 ## How to use
 
