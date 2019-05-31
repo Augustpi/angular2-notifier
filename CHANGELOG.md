@@ -1,5 +1,9 @@
 ### Changelog
 
+**0.1.5**
+
+* Upgrade to Angular 8
+
 **0.1.4**
 
 * Minor fix
