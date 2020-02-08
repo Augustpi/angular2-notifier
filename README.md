@@ -44,7 +44,7 @@ For Angular [Angular](http://angulardart.io)
 
 ## * Dartlang and AngularDart
 
-For Dartlang please visit [Dartlang](https://www.dartlang.org) and [Github repo](https://github.com/dart-lang),
+For Dartlang please visit [Dartlang](https://dart.dev/) and [Github repo](https://github.com/dart-lang),
 For AngularDart [AngularDart](http://angulardart.org) and [Github](https://github.com/dart-lang/angular)
 ```I love Dart```
 
