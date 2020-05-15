@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/angular2-notifier",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -29,6 +30,12 @@
           },
           "configurations": {
             "production": {
+              "budgets": [
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
+                }
+              ],
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -123,5 +130,8 @@
       }
     }
   },
-  "defaultProject": "angular2-notifier"
+  "defaultProject": "angular2-notifier",
+  "cli": {
+    "analytics": "22ea1fef-0ccc-4313-9767-278b15c2749c"
+  }
 }
