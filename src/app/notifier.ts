@@ -40,12 +40,13 @@ export class Notifier {
   }
 
   createNotification(type: string, title: string, content: string, container: Element, duration: number): void {
-      var itemId = 'notifier-item-' + this.counter;
-      var itemEl = this._creteElement('div', this.setMap({ 'class': 'notify item ' + type, 'id': itemId }));
-      var titleEl = this._creteElement('div',  this.setMap({'class': 'header'}));
-      var contentEl = this._creteElement('div', this.setMap({ 'class': 'content' }));
-      var clsEl = this._creteElement('div', this.setMap({'class': 'close-btn' }));
-      var iconEl = this._creteElement('div', this.setMap({'class': 'img img-' + type}));
+      var itemId = 'notifier-item-' + this.counter
+      var itemEl = this._creteElement('div', this.setMap({ class: 'notify item ' + type, id: itemId }))
+      var titleEl = this._creteElement('div', this.setMap({ class: 'header' }))
+      var contentEl = this._creteElement('div', this.setMap({ class: 'content' }))
+      var clsEl = this._creteElement('div', this.setMap({ class: 'close-btn' }))
+      var iconEl = this._creteElement('div', this.setMap({ class: 'img img-' + type }))
+      var c = this._creteElement('div', this.setMap({ class: 'cover' }))
 
       titleEl.innerHTML = title;
       contentEl.innerHTML = content;
@@ -53,9 +54,10 @@ export class Notifier {
 
       itemEl.appendChild(clsEl);
       itemEl.appendChild(titleEl);
-      itemEl.appendChild(iconEl);
-      itemEl.appendChild(contentEl);
-      container.appendChild(itemEl);
+      c.appendChild(iconEl)
+      c.appendChild(contentEl)
+      itemEl.appendChild(c)
+      container.appendChild(itemEl)
 
       clsEl.addEventListener("click", (e) => {
         this.closeNotification(itemId);
